@@ -1,5 +1,6 @@
 * {
   padding: 0px;
+  scroll-behavior: smooth;
   margin: 0px;
   box-sizing: border-box;
 }
@@ -8,7 +9,6 @@ body {
     sans-serif;
 
   overflow: hidden;
-  scroll-behavior: smooth;
 }
 .hello {
   position: absolute;
@@ -73,10 +73,10 @@ body {
 .d {
   animation: dd 8s infinite;
   position: absolute;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0);
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 0.4) 20%,
+    rgba(255, 255, 255, 0.06) 20%,
     rgba(255, 255, 255, 0) 100%
   );
   border-radius: 50%;
@@ -253,8 +253,8 @@ section {
 }
 header {
   padding: 3%;
-}
-#first-header {
+  position: absolute;
+  top: 0px;
   animation: head 5s;
   transform: translateY(0);
 }
@@ -283,15 +283,15 @@ header {
 @keyframes buttonn {
   0% {
     opacity: 0;
-    transform: scale(-1);
+    transform: scale(20%);
   }
   80% {
     opacity: 0;
-    transform: scale(-1);
+    transform: scale(20%);
   }
   100% {
     opacity: 1;
-    transform: translatex(1);
+    transform: scale(100%);
   }
 }
 
@@ -306,6 +306,8 @@ header span {
 main {
   display: flex;
   gap: 100px;
+  height: 100vh;
+  align-items: center;
 }
 
 .button {
@@ -344,8 +346,11 @@ main {
 .button h2 {
   font-size: 40px;
 }
+.button h3 {
+  font-size: 30px;
+}
 .dl {
-  animation-delay: 0, 1.4;
+  animation-delay: 0.4;
 }
 @keyframes floating {
   0% {
@@ -363,6 +368,7 @@ main {
 /*  */
 /*  */
 #about {
+  justify-content: center;
   gap: 1%;
 }
 .text {
@@ -381,10 +387,25 @@ main {
   bottom: 0px;
   height: 40%;
 }
-.back {
-  height: 100px;
-  width: 100px;
+
+.container h4 {
+  padding: 5%;
 }
-.back h2 {
-  font-size: 20px;
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container main {
+  justify-content: center;
+}
+h4 {
+  font-size: 35px;
+}
+#about h4 {
+  position: absolute;
+  right: 2%;
+  top: 2%;
 }
