@@ -138,12 +138,11 @@ body:before{
   text-align: center;
   text-decoration: none;
   background: #ff5500;
-  padding: 10px 30px;
+  padding: 5px 20px;
   border-radius: 5px;
   transition: 0.5s;
 }
 
 #Box  a:hover {
   background-color: #af410a;
-
 }
