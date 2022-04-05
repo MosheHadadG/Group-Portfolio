@@ -149,10 +149,9 @@ body:before{
   background-color: #af410a;
 }
 
-
 footer {
- margin-top: 73px;
   width: 100%;
+  height: 135px;
   display: flex;
 justify-content: center;
 position: relative;
@@ -160,5 +159,7 @@ position: relative;
 
 footer h3{
   color: #f4f4f4;
+  position: absolute;
+  bottom: 0;
 
 }
