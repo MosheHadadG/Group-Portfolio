@@ -98,6 +98,16 @@ html,body{
     width: 60vw;
 }
 
+#my-music a img{
+    height: 90px;
+    width: 314px;
+}
+
+#hapoel img{
+    width: 70%;
+    height: 32vw;
+}
+
 .footer{
     width: 100%;
     height: 15%;
@@ -106,7 +116,19 @@ html,body{
     margin: 0;
     /* border: 2px solid rgb(189, 47, 255); */
 }
+ .social-media{
+     display: flex;
+     justify-content: center;
+     gap: 35px;
+ }
 
+ .social-media li{
+     list-style: none;
+ }
 
+ .social-media a img{
+     height: 30px;
+     width: 30px;
+ }
 
 
