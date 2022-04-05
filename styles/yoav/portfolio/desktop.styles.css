@@ -14,11 +14,11 @@ html,body{
     background-color: rgb(85, 183, 183);
     padding: 0;
     margin: 0;
-    border: 2px solid rgb(189, 47, 255);
+    /* border: 2px solid rgb(189, 47, 255); */
     
     
 }
-.navbar ul {
+.nav-list{
     display: flex;
     text-align: center;
     align-items: center;
@@ -28,7 +28,7 @@ html,body{
 
 }
 
-.navbar ul li {
+.nav-links {
     color: white;
     list-style: none;
     font-size: 50px;
@@ -55,7 +55,7 @@ html,body{
     align-items: center;
     text-align: center;
     
-    font-size: 100px;
+    font-size: 275px;
     color: white;
 }
 
@@ -65,10 +65,37 @@ html,body{
 }
 
 .main-text{
+    max-width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.li-li {
     max-width: 40%;
     font-size: 22px;
     font-weight: bold;
+    list-style: inside;
+    color: rgb(30, 204, 114);
+    text-decoration: underline;
+    
+}
 
+.me-and-my-parents{
+    height: 30vw;
+    width: 60vh;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+#f-n-f h3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#video-games p img{
+    height:40vw ;
+    width: 60vw;
 }
 
 .footer{
@@ -77,6 +104,9 @@ html,body{
     background-color: rgb(85, 183, 183);
     padding: 0;
     margin: 0;
-    border: 2px solid rgb(189, 47, 255);
+    /* border: 2px solid rgb(189, 47, 255); */
 }
+
+
+
 
