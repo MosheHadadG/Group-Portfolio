@@ -309,9 +309,10 @@ main {
   height: 100vh;
   align-items: center;
 }
-
-.button {
+.fi {
   animation: buttonn 6s, floating 4s infinite;
+}
+.button {
   transform: scale(1);
   display: flex;
   width: 200px;
