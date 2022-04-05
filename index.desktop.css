@@ -148,3 +148,17 @@ body:before{
 #Box  a:hover {
   background-color: #af410a;
 }
+
+
+footer {
+ margin-top: 73px;
+  width: 100%;
+  display: flex;
+justify-content: center;
+position: relative;
+}
+
+footer h3{
+  color: #f4f4f4;
+
+}
